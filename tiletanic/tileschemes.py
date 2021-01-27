@@ -7,7 +7,7 @@ Tiletanic package.
 from math import floor, ceil, log2
 import re
 
-from . import Tile, Coords, CoordsBbox
+from base import Tile, Coords, CoordsBbox
 
 qk_regex = re.compile(r'[0-3]+$')
 
