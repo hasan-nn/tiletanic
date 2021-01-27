@@ -1,2 +1,3 @@
-from .base import Tile, Coords, CoordsBbox
-from . import tileschemes, tilecover
+from base import Tile, Coords, CoordsBbox
+from tileschemes import BasicTilingBottomLeft,BasicTilingTopLeft,DGTiling,WebMercator,WebMercatorBL
+from tilecover cover_geometry
