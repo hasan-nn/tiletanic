@@ -2,7 +2,7 @@ from collections.abc import Iterable
 
 from shapely import geometry, ops, prepared
 
-from .base import Tile
+from base import Tile
 
 
 def cover_geometry(tilescheme, geom, zooms):
